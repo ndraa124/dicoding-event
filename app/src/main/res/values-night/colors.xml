@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00372F</color>
+    <color name="colorPrimaryVariant">#005046</color>
+    <color name="colorSecondary">#00594D</color>
+    <color name="colorSecondaryVariant">#00685A</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGray">#D1D1D1</color>
+    <color name="colorTransparent">#00FFFFFF</color>
+    <color name="colorBlackTransparent">#A6292929</color>
+    <color name="colorBackground">#121318</color>
+    <color name="colorHint">#CCB4B4B4</color>
+    <color name="colorLoading">@color/colorWhite</color>
+
+    <color name="colorSwitchThumbActive">@color/colorSecondaryVariant</color>
+    <color name="colorSwitchThumbNonActive">@color/colorWhite</color>
+    <color name="colorSwitchTrackActive">@color/colorWhite</color>
+    <color name="colorSwitchTrackNonActive">@color/colorGray</color>
+</resources>

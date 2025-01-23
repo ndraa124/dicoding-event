@@ -1,0 +1,9 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="FlutterDependency" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="ShellCheck" enabled="true" level="ERROR" enabled_by_default="true">
+      <shellcheck_settings value="SC2005,SC2006,SC2028,SC2046,SC2059,SC2086,SC2103,SC2120,SC2154,SC2164,SC2207,SC2209,SC2237,SC2242" />
+    </inspection_tool>
+  </profile>
+</component>

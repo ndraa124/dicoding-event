@@ -1,0 +1,40 @@
+<resources>
+
+    <style name="Base.Theme.DicodingEvent" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorWhite</item>
+
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="colorOnSecondary">@color/colorSecondary</item>
+
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="Theme.DicodingEvent" parent="Base.Theme.DicodingEvent" />
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- Custom Text  -->
+    <style name="Theme.Text.Base" parent="">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/nunito</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/font_default</item>
+        <item name="android:layout_marginStart">@dimen/margin_default</item>
+        <item name="android:layout_marginEnd">@dimen/margin_default</item>
+    </style>
+
+    <style name="Theme.Text.Base.Bold" parent="Theme.Text.Base">
+        <item name="android:fontFamily">@font/nunito_bold</item>
+    </style>
+
+    <style name="Theme.Text.Heading" parent="Theme.Text.Base.Bold">
+        <item name="android:textSize">@dimen/font_18sp</item>
+    </style>
+</resources>
