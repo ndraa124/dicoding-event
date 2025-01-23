@@ -105,7 +105,7 @@ class DetailActivity : BaseActivity<ActivityDetailBinding>() {
         tvName.text = data.name
         tvOwnerName.text = data.ownerName
         tvBeginTime.text = convertDateString(data.beginTime)
-        tvQuota.text = getResources().getString(R.string.remaining_quota, data.quota)
+        tvQuota.text = getResources().getString(R.string.remaining_quota, data.quota - data.registrants)
         tvDescription.text = HtmlCompat.fromHtml(
             data.description,
             HtmlCompat.FROM_HTML_MODE_LEGACY

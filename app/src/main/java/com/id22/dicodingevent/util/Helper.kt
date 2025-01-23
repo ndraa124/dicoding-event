@@ -9,7 +9,7 @@ import java.util.Locale
 
 class Helper {
     companion object {
-        fun convertDateString(input: String, formatDate: String = "MMM, dd yyyy"): String {
+        fun convertDateString(input: String, formatDate: String = "MMM dd, yyyy HH:mm"): String {
             return if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
                 val inputFormat = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")
                 val outputFormat = DateTimeFormatter.ofPattern(formatDate, Locale.getDefault())

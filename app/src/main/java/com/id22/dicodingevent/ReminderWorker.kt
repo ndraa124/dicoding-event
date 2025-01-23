@@ -30,7 +30,7 @@ class ReminderWorker(context: Context, workerParams: WorkerParameters) :
                         if (it.isNotEmpty()) {
                             val data = it.first()
 
-                            val date = convertDateString(data.beginTime, "EEEE, dd MMMM yyyy")
+                            val date = convertDateString(data.beginTime)
                             val description = "Recommendation event for you on $date."
 
                             showNotification(data.name, description)
